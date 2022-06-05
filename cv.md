@@ -2,7 +2,6 @@
 #### <alexhalanau@gmail.com>
 #### discord nickname: alexhalanau
 ![](./picture.jpg)
-***
 ## About me
 #### I am a civil engineer in a construction organization. I have no experience in programming, but I really want to change the type of activity
 ## Projects
