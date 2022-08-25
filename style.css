@@ -1,6 +1,9 @@
 * {
     box-sizing: border-box; /*границы и внутренние отступы будут учитываться в значениях, которые вы указываете в ширине и высоте элемента */
 }
+html {
+    scroll-behavior: smooth; /*плавная прокрутка скрола */
+}
 @font-face {
     font-family: 'OpenSans'; 
      src: url("assets/fonts/OpenSans.ttf");
