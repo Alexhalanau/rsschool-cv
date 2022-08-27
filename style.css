@@ -4,12 +4,17 @@
 html {
     scroll-behavior: smooth; /*плавная прокрутка скрола */
 }
+@media (max-width: 768px) { /* указать, что при уменьшении ширины экрана до 768px, секция будет занимать всю ширину */
+    .section {
+      width: 100%;
+    }
+}
 @font-face {
     font-family: 'OpenSans'; 
      src: url("assets/fonts/OpenSans.ttf");
 }
 body {
-    font-family: 'OpenSans';
+    font-family: 'OpenSans', sans-serif;
     min-height: 100vh;
     margin: 0;
     padding: 0;
@@ -30,3 +35,24 @@ body {
     max-width: 1440px;
     margin: 0 auto;
 }
+.nav-list {
+    list-style: none; /* убираем стандартные маркеры */
+}
+.nav-link { /* добавляем отступы между элементами списка */
+    padding: 0 20px;
+    line-height: 50px;
+}
+.main-container {
+    display: flex; /* размещает секции по горизонтали */
+    flex-wrap: wrap; /* секции, которые не помещаются по ширине контейнера переносятся на новую строку */
+}
+  
+.section {
+    width: 50%; /* каждая секция занимает ровно половину ширины контейнера */
+}
+.link {
+    text-decoration: none;
+    color: #829985;
+    transition: color 0.5s;
+}
+  
